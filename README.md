@@ -80,3 +80,8 @@ formatador:
     - 'VG'
 ```
 
+
+## Exemplos de como pode ser usado.
+
+ ![Holograma](https://imgur.com/N2iewqa.png) ![Menu](https://imgur.com/hWUbvsw.png)
+
