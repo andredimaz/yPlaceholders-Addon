@@ -33,3 +33,50 @@ Este plugin consiste em fazer um ranking dos jogadores. Desenvolvido para a vers
 - Ranking atualizado em tempo real.
 - Uso de placeholders externas.
 
+
+## FAQ
+
+### Será adicionado suporte para mais plugins?
+
+Sim, caso queira adicionar suporte para algum outro plugin me contacte.
+
+### Como posso contactar?
+
+Através do meu discord: **@notdimaz**
+
+
+## config.yml
+
+```yml
+top-nulo: "&7{pos} &8▪ &fNinguém"
+
+vault:
+    estilo: '&7{pos} &8▪ {tag}{jogador} &8▶ &2$&f{valor}'
+    tamanho: 10 # Quantia de placeholders criadas para o top, %coins_top_10%
+
+ypoints:
+    estilo: '&7{pos} &8▪ {tag}{jogador} &8▶ &6✪{valor}'
+    tamanho: 10 # Quantia de placeholders criadas para o top, %cash_top_10%
+
+
+formatador:
+    - ''
+    - 'K'
+    - 'M'
+    - 'B'
+    - 'T'
+    - 'Q'
+    - 'QQ'
+    - 'S'
+    - 'SS'
+    - 'OC'
+    - 'N'
+    - 'UN'
+    - 'D'
+    - 'DD'
+    - 'TR'
+    - 'QT'
+    - 'QN'
+    - 'VG'
+```
+
