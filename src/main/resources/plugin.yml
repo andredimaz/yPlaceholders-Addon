@@ -1,0 +1,11 @@
+name: yPlaceholders
+version: '${project.version}'
+main: github.andredimaz.placeholders.Main
+depend: [ yPlugins, Vault, PlaceholderAPI ]
+authors: [ dimaz ]
+description: Plugin de placeholders para plugins da ystore e vault
+commands:
+  yreload:
+    description: Recarrega os placeholders
+    usage: /yreload
+    permission: yplaceholders.reload

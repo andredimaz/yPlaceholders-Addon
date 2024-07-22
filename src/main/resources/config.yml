@@ -1,0 +1,35 @@
+#          __| | _  _ __ ___    __ _  ____
+#        / _` || || '_ ` _ \  / _` ||_  /
+#        | (_| || || | | | | || (_| | / /
+#        \__,_||_||_| |_| |_| \__,_|/___|
+
+top-nulo: "&7{pos} &8▪ &fNinguém"
+
+vault:
+    estilo: '&7{pos} &8▪ {tag}{jogador} &8▶ &2$&f{valor}'
+    tamanho: 10 # Quantia de placeholders criadas para o top, %coins_top_10%
+
+ypoints:
+    estilo: '&7{pos} &8▪ {tag}{jogador} &8▶ &6✪{valor}'
+    tamanho: 10 # Quantia de placeholders criadas para o top, %cash_top_10%
+
+
+formatador:
+    - ''
+    - 'K'
+    - 'M'
+    - 'B'
+    - 'T'
+    - 'Q'
+    - 'QQ'
+    - 'S'
+    - 'SS'
+    - 'OC'
+    - 'N'
+    - 'UN'
+    - 'D'
+    - 'DD'
+    - 'TR'
+    - 'QT'
+    - 'QN'
+    - 'VG'
