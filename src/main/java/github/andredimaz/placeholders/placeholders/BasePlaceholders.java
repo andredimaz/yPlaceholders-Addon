@@ -77,7 +77,6 @@ public abstract class BasePlaceholders extends PlaceholderExpansion {
                     .replace("{valor}", formatValue(entry.getValue()))
                     .replace("{tag}", getTag(Bukkit.getOfflinePlayer(entry.getKey())));
 
-            // Process PlaceholderAPI placeholders
             style = PlaceholderAPI.setPlaceholders(player, style);
 
             return style;
