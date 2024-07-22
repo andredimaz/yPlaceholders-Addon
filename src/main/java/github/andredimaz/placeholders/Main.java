@@ -23,8 +23,6 @@ public class Main extends JavaPlugin {
     private int vaultTopSize;
     private String ypointsStyle;
     private int ypointsTopSize;
-    private String ytempoOnlineStyle;
-    private int ytempoOnlineTopSize;
     private List<String> formatSuffixes;
     private String topNullMessage;
     private LuckPerms luckPerms = null;
@@ -112,6 +110,6 @@ public class Main extends JavaPlugin {
         ypointsStyle = getConfig().getString("ypoints.estilo", "&7{pos} &8▪ {tag}{jogador} &8▶ &6✪{valor}");
         ypointsTopSize = getConfig().getInt("ypoints.tamanho", 10);
         formatSuffixes = getConfig().getStringList("formatador");
-        topNullMessage = getConfig().getString("top-nulo", "&7{pos} &8▪ &fNinguém");
+        topNullMessage = getConfig().getString("top-nulo", "§7Ninguém");
     }
 }
